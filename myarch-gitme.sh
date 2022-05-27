@@ -34,7 +34,10 @@ myarch_repo/
 
 _count=0
 
+#Do a check here to see if folder exists and create if not
 mkdir ~/myArch
+cd ..
+mv ./myarch-gitme ~/myArch
 cd ~/myArch
 
 for name in "${_repositories[@]}"; do
