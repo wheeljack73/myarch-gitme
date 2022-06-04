@@ -28,6 +28,7 @@ echo "================================================================"
 _repositories=(
 myarch-calamares-config/
 myarch-iso/
+myarch-mirrorlist/
 myarch-pkgbuild/
 myarch_repo/
 )
