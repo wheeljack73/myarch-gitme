@@ -51,9 +51,9 @@ case $_choice in
 			git config --global user.name "wheeljack73"
 			git config --global user.email "codweb+github@slmail.me"
 			sudo git config --system core.editor nano
-			git config --global credential.helper cache
-			git config --global credential.helper 'cache --timeout=32000'
-      #git remote set-url origin git@github.com:$_githubdir/$_project
+      #git config --global credential.helper cache
+      #git config --global credential.helper 'cache --timeout=32000'
+      git remote set-url origin git@github.com:$_githubdir/$_project
       echo
       echo "Everything set for desktop "$_choice
       ;;
